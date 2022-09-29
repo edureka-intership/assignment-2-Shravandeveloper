@@ -1,0 +1,170 @@
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+/* Header css start here */
+.logo {
+  width: 150px
+}
+header .bg-light {
+  background: #cb202d !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Header css end here */
+
+
+/* Hero css start here */
+.hero-section {
+  background-image: url('https://i.ibb.co/sR8STr6/bg.png');
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.bannertext {
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.searchwrapper {
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.hero-content {
+  width: 100%;
+}
+
+.btn-check:focus+.btn-success,
+.btn-success:focus {
+  box-shadow: none;
+}
+
+/* Hero css start here */
+
+/* Body css start here */
+.description-wrapper {
+  display: table;
+  height: 100%;
+}
+
+.image-description {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 2px 16px 4px rgb(40 44 63 / 7%);
+}
+
+.img-card {
+  width: 200px;
+}
+
+.img-card img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.ordernow {
+  background: #cb202d;
+  border-radius: 5px;
+  outline: none;
+  width: 120px;
+  text-align: center;
+  color: #ffffff;
+  line-height: normal;
+  padding: .5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: 0px;
+  font-size: .7rem;
+  letter-spacing: .9px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.image-description {
+  padding: 16px 0px;
+}
+
+.image-description h3 {
+  font-size: 1.2rem;
+}
+
+.image-description p {
+  font-size: .9rem;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+
+/* Body css end here */
+
+/* Footer css start here */
+footer {
+  padding: 2rem 0px;
+  background: #f8f8f8;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Hero css end here */
+
+
+/* Mobile css start here */
+@media (min-width:992px) {
+  .navbar-nav {
+    margin-left: auto;
+    gap: 1.5rem
+  }
+
+  .searchwrapper {
+    flex-direction: row;
+  }
+
+  .hero-content {
+    max-width: 720px;
+  }
+}
+
+/* Mobile css End here */
